@@ -1,0 +1,126 @@
+
+
+
+.btn_active,
+.btn {
+	border-radius: 8px;
+	background-color: #dedede;
+	border: none;
+	cursor: pointer;
+}
+
+.btn_active {
+	border: 2px red solid;
+}
+.cuadro{
+	width: 300px;
+	height: auto;
+}
+.titulo{
+	display: flex;
+	flex-direction: column;
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	text-align: center;
+}
+.imagen-contenedor{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.inputs_section {
+	gap: 15px;
+	align-items: center;
+	background-color: #dedede;
+	padding: 20px;
+}
+
+.inputs_section div {
+	display: flex;
+	flex-direction: column;
+}
+.inputs_section div img {
+	width: 200px;
+}
+.select-ej3{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 5px;
+}
+#inputs{
+	display: flex;
+	flex-direction: row;
+	gap:20px ;
+	
+}
+#ejercicio2{
+	display: flex;
+	flex-direction: column;
+	background-color: #FF9EAF;
+}
+#ejercicio3{
+	background-color: #92A4FF;
+	padding: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+}
+#ejercicio1{
+	background-color: #dcedc6;
+	padding: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+}
+#mensaje3{
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 2rem;
+}
+button#ingresar , button#calcular{
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+	border:none;
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;            
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+}
+button#ingresar:hover ,button#calcular:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+  }
+
+select,input {
+    background: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 5px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+#mensaje{
+	text-align: center;
+}
+
+
+
+
+
+  
+ 
